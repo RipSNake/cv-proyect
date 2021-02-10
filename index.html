@@ -12,196 +12,221 @@
 
 </head>
 <body class="container-fluid">
-	<div class="main-container">
-	<!-- Header -->
-	<header class="row">
-		<div class="col-2">
-			<img src="assets/profile-img.jpg" title="Sebastian Javier Guzman" alt="Sebastian Javier Guzman's profile image" class="profile-img img-fluid">
-		</div>
+	<!-- static contact buttons -->
+	<div class="fixed-bottom">
+		<a href="https://api.whatsapp.com/send?phone=2234498748&text=Hola%20Sebastian%20nos%20contactamos%20de%20" class="btn"><i class="bi bi-whatsapp" style="color: green;"></i></a>
 
-		<div class="col-6 mt-5">
-				<h1>Sebastian Javier Guzman</h1>
-				<h3>Técnico de PC</h3>
-				<h3>Programador Jr</h3>
-		</div>
-		
-		<!-- Personal Information -->
-		<div class="col-4">
-			<section id="personal-info" class="card">
-				<i></i>
+	</div>
+	
+
+
+	<div class="main-container">
+		<!-- Header -->
+		<header class="row">
+			<!-- profile-img + name + aspirations -->
+			<div class="col-8">
+				<!-- profile-img + name -->
+				<div class="row mb-3">
+					<!-- profile-img -->
+					<div class="col-4 align-self-center">
+						<img src="assets/profile-img.jpg" title="Sebastian Javier Guzman" alt="Sebastian Javier Guzman's profile image" class="profile-img img-fluid">
+					</div>
+					<!-- name and profession -->
+					<div class="col-8 align-self-center">
+						<h1>Sebastian Javier Guzman</h1>
+						<div class="roles">
+							<h3>Técnico de PC</h3>
+							<h3>Programador Jr</h3>		
+						</div>
+
+					</div>	
+				</div>
+				<!-- aspirations -->
+				<div class="row">
+					<div class="col">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text">Luego de realizar mi primer curso de programación, descubrí que es algo que me gusta mucho y quisiera desarrollar profesionalmente! He aprendido que lleva tiempo poder desarrollar los conocimientos y habilidades para lograr lo que uno desea, pero vale totalmente la pena.
+								</p>
+								<p class="card-text">Siempre he sentido una gran curiosidad por las computadoras, y este nuevo camino me motiva ha seguir aprendiendo más.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Personal Information -->
+			<div class="col-4 align-self-end">
+				<section id="personal-info" class="card">
+
+					<div class="card-header">
+						<i class="bi bi-person"></i><h2 class="card-title">Información Personal</h2>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Nacionalidad: <span class="nav-link text-end">Argentino</span></p>
+
+						<p class="card-text">Domicilio: <span class="nav-link text-end">Manuela Pedraza 2416</span></p>
+
+						<p class="card-text">Telefono: <a class="nav-link text-end" href="tel:+542234498748">223-449-8748</a></p>
+
+						<p class="card-text">Email: <a href="mailto:seba.guzman13@gmail.com" class="nav-link text-end">seba.guzman13@gmail.com</a></p>
+
+
+					</div>
+					<!-- Social Media Channels -->
+					<div class="card-body">
+						<ul class="navbar nav" style="font-size: 2em;">
+							<li class="nav-item"><a class="nav-link" href="https://github.com/RipSNake/" style="color: black;"><i class="bi bi-github"></i></a></li>
+							<li class="nav-item"><a class="nav-link" href="https://linkedin.com/"><i class="bi bi-linkedin"></i></a></li>
+							<li class="nav-item"><a class="nav-link" href="https://codepen.com/" style="color: tomato;"><i class="bi bi-journal-code"></i></a></li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</header>
+
+		<main>
 			
 			
+			<!-- Education -->
+			<section id="education" class="card">
 				<div class="card-header">
-					<h2 class="card-title">Informacion Personal</h2>
+					<h2>Educación</h2>
+				</div>
+
+				<div class="card-body">
+					<h3><strong>Tecnico Superior en Programación</strong></h3>
+					<em>2020-Actualidad</em>
+					<p>Institucion: <span class="">UTN Mar del Plata</span></p>
+					<p>Carrera de técnico superior en programación. Programación en C.</p>
+				</div>
+
+				<div class="card-body">
+					<h3><strong>Human Computer Interaction I</strong></h3>
+					<em>2020-2020</em>
+					<p>Institucion: <span class="">EDX Online Course</span></p>
+					<p>Introducción al diseño y al método de pensamiento utilizado para poder realizar interfaces que sean intuitivas y ayuden al usuario a poder realizar las tareas deseadas con mayor facilidad.</p>
+				</div>
+
+				<div class="card-body">
+					<h3><strong>Programación en JAVA</strong></h3>
+					<em>2017-2018</em>
+					<p>Institución: <span class="">Plan 111 Mil - Ministerio de Educación de la Nación</span></p>
+					<p>Curso de programación en Java + MySQL, orientado a personas sin conocimientos previos de programación. Creación de sistema ABM y persistencia de datos con MySQL e hibernate framework.</p>
+				</div>
+
+				<div class="card-body">
+					<h3><strong>Bachiller</strong></h3>
+					<em>2000-2004</em>
+					<p>Institucion: <span class="">Colegio Nacional Dr Aturo Umberto Illia</span></p>
+					<p>Brefing of the curse scope</p>
+				</div>
+			</section>
+
+			<!-- Skills -->
+			<section id="skills" class="card">
+				<div class="card-header">
+					<h2>Skills</h2>
 				</div>
 				<div class="card-body">
-					<p class="card-text">Nacionalidad: <span class="nav-link text-end">Argentino</span></p>
-
-					<p>Domicilio: <span class="nav-link text-end">Manuela Pedraza 2416</span></p>
-
-					<p>Telefono: <a class="nav-link text-end" href="tel:+542234498748">223-449-8748</a></p>
-
-					<p>Email: <a href="mailto:seba.guzman13@gmail.com" class="nav-link text-end">seba.guzman13@gmail.com</a></p>
-
-					<a href="https://api.whatsapp.com/send?phone=2234498748&text=Hola%20Sebastian%20nos%20contactamos%20de%20" class="btn nav-link"><i class="bi bi-whatsapp" style="color: green;"></i></a>
-			</div>
-			<!-- Social Media Channels -->
-			<div class="card-body">
-				<ul class="navbar nav" style="font-size: 2em;">
-					<li class="nav-item"><a class="nav-link" href="https://github.com/RipSNake/" style="color: black;"><i class="bi bi-github"></i></a></li>
-					<li class="nav-item"><a class="nav-link" href="https://linkedin.com/"><i class="bi bi-linkedin"></i></a></li>
-					<li class="nav-item"><a class="nav-link" href="https://codepen.com/" style="color: tomato;"><i class="bi bi-journal-code"></i></a></li>
-				</ul>
-			</div>
-			</section>
-		</div>
-	</header>
-
-	<main>
-			
-			<!-- Apirations -->
-			<div class="card">
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Javascript</li>
+						<li>Bootstrap</li>
+						<li>Java</li>
+					</ul>
+				</div>
+				<!-- learning -->
 				<div class="card-body">
-				<p class="card-text">Luego de realizar mi primer curso de capacitación en la programación en java, descubrí que es apasionante! Y que el tiempo que lleva desarrollar los conocimientos y habilidades necesarias para lograr lo que uno desea, vale totalmente la pena.
-				</p>
-				<p class="card-text">Siempre he sentido una gran curiosidad por las computadoras, y este nuevo camino me motiva ha seguir aprendiendo más.</p>
-			</div>
-			</div>
+					<div class="card-subtitle">
+						<h5>Learning</h5>
+					</div>
+					<ul>
+						<li>Node.js</li>
+						<li>Angular</li>
+					</ul>
+				</div>
+				<!-- other skills -->
+				<div class="card-body">
+					<div class="card-subtitle">
+						<h5>Other Skills</h5>
+					</div>
+					<ul>
+						<li>Bajista - Profesor de Música</li>
+						<li>Electricista Domiciliario</li>
+						<li>DIY Pedales de Efectos</li>
+						<li>Nociones de grabación y edición de audio</li>
+					</ul>
+				</div>
+			</section>
 
-		<!-- Education -->
-		<section id="education" class="card">
-			<div class="card-header">
-			<h2>Educación</h2>
-</div>
-			<div class="card-body">
-				<h3><strong>Programación en JAVA</strong></h3>
-				<em>2017-2018</em>
-				<p>Institución: <span class="">Plan 111 Mil - Ministerio de Educación de la Nación</span></p>
-				<p>Brefing of the curse scope</p>
-			</div>
+			<!-- Experience -->
+			<section id="experience" class="card">
+				<div class="card-header">
+					<h2>Experience</h2>
+				</div>
 
-			<div class="card-body">
-				<h3><strong>Human Computer Interaction I</strong></h3>
-				<em>yyyy-yyyy</em>
-				<p>Institucion: <span class="">EDX Online Course</span></p>
-				<p>Brefing of the curse scope</p>
-			</div>
+				<div class="card-body">
+					<h3>Team Leader de Equipo de Gestiones</h3> <em>2019-Actualidad</em>
+					<h5>GSA Collections</h5>
+					<p>Supervisar grupo de gestores encargados de brindar soporte a los técnicos reparadores/instaladores de la empresa Cablevision/Fibertel y encargados de agenda de visitas a consumidores finales del servicio.<br/>
+					Asegurar la calidad del servicio y de atención al consumidor final.</p>
+				</div>
 
-			<div class="card-body">
-				<h3><strong>Tecnico Superior en Programación</strong></h3>
-				<em>2020-Actualidad</em>
-				<p>Institucion: <span class="">UTN Mar del Plata</span></p>
-				<p>Brefing of the curse scope</p>
-			</div>
+				<div class="card-body">
+					<h3>Atención al Público</h3> <em>2013-2015</em>
+					<h5>MGH Electrónica</h5>
+					<p>Atención presencial y telefónica. Registro y entrega de equipos a reparar. Control de Caja y pedidos de repuestos. Inventario de Depósito.</p>
+				</div>
 
-			<div class="card-body">
-				<h3><strong>Bachiller</strong></h3>
-				<em>2000-2004</em>
-				<p>Institucion: <span class="">Colegio Nacional Dr Aturo Umberto Illia</span></p>
-				<p>Brefing of the curse scope</p>
-			</div>
-		</section>
+				<div class="card-body">
+					<h3>Técnico Reparador de PC</h3> <em>2007-2020</em>
+					<h5>Independiente</h5>
+					<p>Description of the work developed</p>
+				</div>
+			</section>
 
-		<!-- Skills -->
-		<section id="skills" class="card">
-			<div class="card-header">
-			<h2>Skills</h2>
-		</div>
-			<div class="card-body">
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-					<li>Java</li>
-					<li>Bootstrap</li>
-				</ul>
-			</div>
-			<!-- learning -->
-			<div class="card-body">
-				<div class="card-subtitle">
-				<h5>Learning</h5>
-			</div>
-				<ul>
-					<li>Node.js</li>
-					<li>Angular</li>
-				</ul>
-			</div>
-			<!-- other skills -->
-			<div class="card-body">
-				<div class="card-subtitle">
-				<h5>Other Skills</h5>
-			</div>
-				<ul>
-					<li>Bajista - Profesor de Música</li>
-					<li>Electricista Domiciliario</li>
-					<li>Pedales de Efectos</li>
-					<li>Nociones de grabación</li>
-				</ul>
-			</div>
-		</section>
+			<!-- Portfolio -->
+			<section id="portfolio" class="card">
+				<div class="card-header">
+					<h2>Mi Portfolio</h2>
+				</div>
+				<div class="card-body">
+					<ul class="navbar nav justify-content-around">
+						<li><a href=""><i class="bi bi-github"></i></a></li>
+						<li><a href=""><i class="bi bi-pen"></i></a></li>
+						<li><a href=""><i class="bi bi-person"></i></a></li>
+						<li><a href=""><i class="bi bi-instagram"></i></a></li>
+						<li><a href=""><i class="bi bi-person"></i></a></li>
+						<li><a href=""><i class="bi bi-person"></i></a></li>
+					</ul>
+				</div>
+			</section>
 
-		<!-- Experience -->
-		<section id="experience" class="card">
-			<div class="card-header">
-			<h2>Experience</h2>
-		</div>
+			<!-- Languages -->
+			<section id="languages" class="card">
+				<div class="card-header">
+					<h2>Idiomas</h2>
+				</div>
+				<div class="card-body">
+					<ul>
+						<li>Español (native tongue)</li>
+						<li>Ingles (avanzado)</li>	
+					</ul>				
+				</div>
+			</section>
+		</main>
 
-			<div class="card-body">
-				<h3>Work</h3> <em>year-year</em>
-				<p>Description of the work developed</p>
-			</div>
-
-			<div class="card-body">
-				<h3>Work</h3> <em>year-year</em>
-				<p>Description of the work developed</p>
-			</div>
-
-			<div class="card-body">
-				<h3>Work</h3> <em>year-year</em>
-				<p>Description of the work developed</p>
-			</div>
-		</section>
-
-		<!-- Portfolio -->
-		<section id="portfolio" class="card">
-			<div class="card-header">
-			<h2>Mi Portfolio</h2>
-		</div>
-			<div class="card-body">
-				<ul>
-					<li><a href="">GitHub</a></li>
-					<li><a href="">CodePen</a></li>
-					<li><a href="">Heroku</a></li>
-					<li><a href="">Sample Page</a></li>
-					<li><a href="">Sample Page</a></li>
-					<li><a href="">Sample Page</a></li>
-				</ul>
-			</div>
-		</section>
-
-		<!-- Languages -->
-		<section id="languages" class="card">
-			<div class="card-header">
-			<h2>Idiomas</h2>
-		</div>
-			<div class="card-body">
-				<ul>
-					<li>Español (native tongue)</li>
-					<li>Ingles (avanzado)</li>	
-				</ul>				
-			</div>
-		</section>
-	</main>
-
-	<!-- Footer -->
-	<footer>
-		<p class="">Desarrollado con fines de lucro 2021</p>
-	</footer>
-	<!-- Scripts -->
-	<!-- Bootstrap Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-	<!-- personal script -->
-	<script type="text/javascript" src=""></script>
-</div>
+		<!-- Footer -->
+		<footer>
+			<p class="">Desarrollado con fines de lucro 2021</p>
+		</footer>
+		<!-- Scripts -->
+		<!-- Bootstrap Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<!-- personal script -->
+		<script type="text/javascript" src=""></script>
+	</div>
 </body>
 </html>
