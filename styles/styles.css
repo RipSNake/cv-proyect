@@ -11,20 +11,39 @@
 }
 
 header {
-	max-height: 20em;
+	margin-bottom: 1em;
+}
+
+.roles {
+	margin-left: 1.2em;
+	font-size: 1.3em;
 }
 
 .profile-img {
-	/*
-	background: url('../assets/profile-img.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	*/
 	border-radius: 50%;
-	min-height: 256px;
 }
 
-#personal-info h2 {
-	font-size: 1.5em;
+#personal-info {
+	align-self: flex-end;
+	font-size: smaller;
+}
+
+#personal-info h2{
+	display: inline;
+	font-size: 1.3em;
+}
+
+.card-header i {
+	font-size: 1.7em;
+	margin-right: 10px;
+}
+
+#personal-info p {
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#portfolio li {
+	font-size: 2em;
 }
