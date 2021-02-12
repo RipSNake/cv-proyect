@@ -10,6 +10,10 @@
 	padding: 1.5em;
 }
 
+h1 {
+	font-size: 2em;
+}
+
 header {
 	margin-bottom: 1em;
 }
@@ -68,4 +72,10 @@ a.btn-outline-success {
 
 a.btn-outline-success:hover {
 	color: white;
+}
+
+@media (max-width: 576px) {
+	.with-margin-sm {
+		margin-bottom: 2em;
+	}
 }
