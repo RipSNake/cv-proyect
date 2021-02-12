@@ -58,3 +58,14 @@ section {
 	font-size: 2em;
 }
 
+.bi-whatsapp::before{
+	line-height: inherit;
+}
+
+a.btn-outline-success {
+	
+}
+
+a.btn-outline-success:hover {
+	color: white;
+}
