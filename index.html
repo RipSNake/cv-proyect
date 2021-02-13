@@ -13,9 +13,10 @@
 </head>
 <body class="container-fluid">
 	<!-- static contact buttons -->
-	<div class="fixed-bottom text-end" style="bottom: 2px;">
-		<a href="https://api.whatsapp.com/send?phone=2234498748&text=Hola%20Sebastian%20nos%20contactamos%20de%20" class="btn btn-outline-success"><i class="bi bi-whatsapp" style="font-size: 2em;"></i></a>
+	<div class="fixed-bottom text-end" id="contact-btns">
+		<a href="https://api.whatsapp.com/send?phone=2234498748&text=Hola%20Sebastian%20nos%20contactamos%20de%20" class="btn btn-outline-success"><i class="bi bi-whatsapp"></i></a>
 
+		<a class="btn btn-outline-secondary" href="mailto:seba.guzman13@gmail.com"><i class="bi bi-envelope"></i></a>
 	</div>
 	
 
@@ -28,8 +29,8 @@
 				<!-- profile-img + name -->
 				<div class="row mb-3">
 					<!-- profile-img -->
-					<div class="col-md-4 align-self-center text-center">
-						<img src="assets/profile-img.jpg" title="Sebastian Javier Guzman" alt="Sebastian Javier Guzman's profile image" class="profile-img img-fluid col-10 col-md-12 with-margin-sm">
+					<div class="col-md-4 col-sm-10 align-self-center mx-auto">
+						<img src="assets/blank-profile-460_640.webp" title="Sebastian Javier Guzman" alt="Sebastian Javier Guzman's profile image" class="profile-img img-fluid with-margin-sm">
 					</div>
 					<!-- name and profession -->
 					<div class="col-md-8 align-self-center text-center text-md-start">
@@ -60,7 +61,7 @@
 				<section id="personal-info" class="card">
 
 					<div class="card-header">
-						<i class="bi bi-person"></i><h2 class="card-title">Información Personal</h2>
+						<i class="bi bi-person"></i><h2 class="card-title d-inline">Información Personal</h2>
 					</div>
 					<div class="card-body">
 						<p class="card-text">Nacionalidad: <span class="nav-link text-end">Argentino</span></p>
@@ -89,7 +90,7 @@
 			<!-- Education -->
 			<section id="education" class="card">
 				<div class="card-header">
-					<h2>Educación</h2>
+					<i class="bi bi-book"></i><h2 class="card-title d-inline">Educación</h2>
 				</div>
 
 				<div class="card-body">
@@ -135,11 +136,11 @@
 			<!-- Skills -->
 			<section id="skills" class="card">
 				<div class="card-header">
-					<h2>Skills</h2>
+					<i class="bi bi-braces"></i><h2 class="card-title d-inline">Skills</h2>
 				</div>
 				<div class="card-body">
 					<div class="row">
-						<div class="col">
+						<div class="col-md-6">
 							<ul>
 								<li>HTML</li>
 								<li>CSS</li>
@@ -150,7 +151,7 @@
 						</div>
 						<div class="col">
 							<div class="card-subtitle">
-								<h5>Aprendiendo</h5>
+								<h5>Interés</h5>
 							</div>
 							<ul>
 								<li>Node.js</li>
@@ -163,7 +164,7 @@
 
 			<section id="hobbies" class="card">
 				<div class="card-header">
-					<h2>Hobbies</h2>
+					<i class="bi bi-geo-fill"></i><h2 class="card-title d-inline">Hobbies</h2>
 				</div>
 				<div class="card-body">
 					<ul>
@@ -177,7 +178,7 @@
 			<!-- Experience -->
 			<section id="experience" class="card">
 				<div class="card-header">
-					<h2>Experiencia</h2>
+					<i class="bi bi-gear"></i><h2 class="card-title d-inline">Experiencia</h2>
 				</div>
 
 				<div class="card-body">
@@ -203,18 +204,22 @@
 			<!-- Portfolio -->
 			<section id="portfolio" class="card">
 				<div class="card-header">
-					<h2>Mi Portfolio</h2>
+					<i class="bi bi-cloud"></i><h2 class="card-title d-inline">Mi Portfolio</h2>
 				</div>
 				<div class="card-body">
-					<ul class="navbar nav justify-content-around">
-						<div class="col-sm-6 col"></div>
-						<div class="col-sm-6 col"></div>
-						<li><a href="https://github.com/RipSNake" target="_blank"><i class="bi bi-github"></i></a></li>
-						<li><a href="" target="_blank"><i class="bi bi-pen"></i></a></li>
-						<li><a href="" target="_blank"><i class="bi bi-person"></i></a></li>
-						<li><a href="https://www.instagram.com/reparaciondepc.sg/" target="_blank"><i class="bi bi-instagram"></i></a></li>
-						<li><a href="" target="_blank"><i class="bi bi-person"></i></a></li>
-						<li><a href="" target="_blank"><i class="bi bi-person"></i></a></li>
+					<ul class="d-flex flex-wrap navbar nav justify-content-around">
+
+						
+							<li class="col-6 col-sm-4 col-md-2"><a href="https://github.com/RipSNake" target="_blank"><i class="bi bi-github"></i></a></li>
+							<li class="col-6 col-sm-4 col-md-2"><a href="" target="_blank"><i class="bi bi-journal-code"></i></a></li>
+							<li class="col-6 col-sm-4 col-md-2"><a href="" target="_blank"><i class="bi bi-pen"></i></a></li>
+						
+							<li class="col-6 col-sm-4 col-md-2"><a href="https://www.instagram.com/reparaciondepc.sg/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+							<li class="col-6 col-sm-4 col-md-2"><a href="" target="_blank"><i class="bi bi-pen"></i></a></li>
+							<li class="col-6 col-sm-4 col-md-2"><a href="" target="_blank"><i class="bi bi-pen"></i></a></li>	
+						
+						
+						
 					</ul>
 				</div>
 			</section>
@@ -222,7 +227,7 @@
 			<!-- Languages -->
 			<section id="languages" class="card">
 				<div class="card-header">
-					<h2>Idiomas</h2>
+					<i class="bi bi-book"></i><h2 class="card-title d-inline">Idiomas</h2>
 				</div>
 				<div class="card-body">
 					<ul>
