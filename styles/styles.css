@@ -10,12 +10,26 @@
 	padding: 1.5em;
 }
 
+#contact-btns {
+	bottom: 2px;
+	font-size: 2em;
+}
+
+#contact-btns i::before {
+	line-height: inherit;
+}
+
+i::before {
+	line-height: inherit;
+	margin-bottom: 0.2em;
+}
+
 h1 {
 	font-size: 2em;
 }
 
 header {
-	margin-bottom: 1em;
+	
 }
 
 section {
@@ -32,7 +46,8 @@ section {
 }
 
 #personal-info {
-	align-self: flex-end;
+	/*height: 100%;*/
+	/*margin-bottom: 0;*/
 	font-size: smaller;
 }
 
@@ -41,15 +56,15 @@ section {
 	font-size: 1.3em;
 }
 
-.card-header i {
-	font-size: 1.7em;
-	margin-right: 10px;
-}
-
 #personal-info p {
 	margin-bottom: 5px;
 	display: flex;
 	justify-content: space-between;
+}
+
+.card-header i {
+	font-size: 1.7em;
+	margin-right: 10px;
 }
 
 .carrer-div {
@@ -60,10 +75,7 @@ section {
 
 #portfolio li {
 	font-size: 2em;
-}
-
-.bi-whatsapp::before{
-	line-height: inherit;
+	text-align: center;
 }
 
 a.btn-outline-success {
@@ -74,7 +86,11 @@ a.btn-outline-success:hover {
 	color: white;
 }
 
-@media (max-width: 576px) {
+.bi-*::before {
+	vertical-align: baseline;
+}
+
+@media (max-width: 768px) {
 	.with-margin-sm {
 		margin-bottom: 2em;
 	}
